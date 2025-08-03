@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200&family=Unbounded:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
+
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>Dow Tech Consulting</title>
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-12 col-12 d-flex">
+              <a
+                class="site-header-text d-flex justify-content-center align-items-center me-auto"
+                href="index.html"
+              >
+                <i class="bi-box"></i>
+
+                <span> Dow Tech Consulting </span>
+              </a>
+
+              <ul
+                class="social-icon d-flex justify-content-center align-items-center mx-auto"
+              >
+                <span class="text-white me-4 d-none d-lg-block"
+                  >Stay connected</span
+                >
+
+                <li class="social-icon-item">
+                  <a href="#" class="social-icon-link bi-instagram"></a>
+                </li>
+
+                <li class="social-icon-item">
+                  <a href="#" class="social-icon-link bi-twitter"></a>
+                </li>
+
+                <li class="social-icon-item">
+                  <a href="#" class="social-icon-link bi-whatsapp"></a>
+                </li>
+
+                <li class="social-icon-item">
+                  <a href="#" class="social-icon-link bi-linkedin"></a>
+                </li>
+              </ul>
+
+              <a
+                class="bi-list offcanvas-icon"
+                data-bs-toggle="offcanvas"
+                href="#offcanvasMenu"
+                role="button"
+                aria-controls="offcanvasMenu"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div
+        class="offcanvas offcanvas-end bg-dark"
+        data-bs-scroll="true"
+        tabindex="-1"
+        id="offcanvasMenu"
+        aria-labelledby="offcanvasMenuLabel"
+      >
+        <div class="offcanvas-header">
+          <button
+            type="button"
+            class="btn-close ms-auto"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+
+        <div
+          class="offcanvas-body d-flex flex-column justify-content-center align-items-center"
+        >
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a class="active" href="about.html">About us</a>
+              </li>
+              <li>
+                <a href="services.html">Services</a>
+              </li>
+              <li>
+                <a href="portfolio.html">Portfolio</a>
+              </li>
+
+              <li>
+                <a href="contact.html">Contact Form</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <section
+        class="hero-section d-flex justify-content-center align-items-center bg-dark"
+      >
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img
+                src="images/about_us.jpg"
+                class="d-block mx-lg-auto img-fluid bubble-img"
+                alt="computer_with_code"
+                width="700"
+                height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-6 fw-bold lh-1 mb-3 text-white">About Us</h1>
+              <p class="lead">
+                Dow Tech Consulting is Nigeria’s premier provider of innovative
+                web development, digital marketing, and online branding
+                solutions. Specializing in crafting dynamic, user-centric
+                websites, we empower businesses with cutting-edge digital tools
+                to enhance their online presence. Our digital marketing
+                strategies drive engagement and conversions through targeted
+                campaigns, SEO, and social media expertise. Additionally, our
+                online branding services create cohesive, impactful identities
+                that resonate with audiences.
+              </p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a
+                  href="contact.html"
+                  type="button"
+                  class="btn btn-secondary btn-lg px-4 me-md-2"
+                >
+                  Request a Quote
+                </a>
+                <a
+                  href="contact.html"
+                  type="button"
+                  class="btn btn-outline-secondary btn-lg px-4"
+                >
+                  Talk to Us
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-wrap">
+          <video autoplay="" loop="" muted="" class="custom-video" poster="">
+            <source src="videos/video.mp4" type="video/mp4" />
+
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+
+    <footer class="bg-dark text-white pt-5 pb-4 small-footer">
+      <div class="container text-md-left">
+        <div class="row text-md-left">
+          <!-- About Us -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">About Us</h5>
+            <p>
+              We are a creative team building digital experiences that drive
+              growth. Passionate about tech, people, and your success.
+            </p>
+          </div>
+
+          <!-- Contact Us -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+            <p><i class="bi bi-envelope"></i> hello@dow.com</p>
+            <p><i class="bi bi-phone"></i> +234 802 442 6215</p>
+            <p><i class="bi bi-geo-alt"></i> Abuja, Nigeria</p>
+          </div>
+
+          <!-- Services -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Services</h5>
+            <p>
+              <a href="#" class="text-white text-decoration-none bi bi-check"
+                >Web Design</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none bi bi-check"
+                >Digital Marketing</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none bi bi-check"
+                >App Development</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none bi bi-check"
+                >SEO & Analytics</a
+              >
+            </p>
+          </div>
+
+          <!-- Social Media -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Follow Us</h5>
+            <a href="#" class="text-white me-3 fs-4"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="#" class="text-white me-3 fs-4"
+              ><i class="bi bi-twitter"></i
+            ></a>
+            <a href="#" class="text-white me-3 fs-4"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="#" class="text-white me-3 fs-4"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a href="#" class="text-white fs-4"
+              ><i class="bi bi-youtube"></i
+            ></a>
+          </div>
+        </div>
+
+        <hr class="my-4" />
+
+        <!-- Copyright -->
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-8 text-center">
+            <p>&copy; 2025 Dow Tech Consulting. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

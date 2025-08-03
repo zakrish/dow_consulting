@@ -1,0 +1,17 @@
+{
+  "name": "dow-tech-consulting",
+  "version": "1.0.0",
+  "description": "Simple Tech Landing Page Using Bootstrap 5",
+  "main": "index.html",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "author": "Zakrish",
+  "license": "",
+  "devDependencies": {
+    "@fortawesome/fortawesome-free": "^6.4.0",
+    "bootstrap": "^5.2.3",
+    "sass": "^1.62.0"
+  }
+}
